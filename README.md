@@ -3,25 +3,27 @@
 
 ![Preview](Home.png "Home page")
 
-## Unlock signed sideloading on:
+## Requirements:
 
-- Windows 8.0 and up
+- Windows 8.1 x86, x64 or ARM
 
+**What is MetroScreenshot?** MetroScreenshot is a native Metro (AppX) application designed for Windows 8.1 that allows you to easily capture and save screenshots of your favorite Metro apps, games, and the Start screen.
 
-## Unlock full sideloading on:
+**Latest Update:**
+Version: 1.1.0.0
+Update name: Quality of Life Update
 
-- Windows 8.1 Pro and up
+**What's new?**
+Wide tile support
+Live Tile showing the total number of screenshots captured with MetroScreenshot
+Ability to automatically copy screenshots to the clipboard
+Video tutorial removed
+New Charms bar options: Settings, Help, and Join our Discord server!
+Option to change the default screenshot file format between PNG and JPG
+Toggle to show or hide the crop button after taking a screenshot
+Toggle to show or hide notifications after saving a screenshot
+Toggle to turn off the screenshot counter badge on the Live Tile
+Ability to crop or rotate the image before saving
+Recent screenshots displayed directly on the MetroScreenshot Live Tile
 
-**Development sideloading** might take a while to activate. If it doesn't activate quick enough, you can use **Product Policy Editor** to disable **SPPSVC**, set the system clock to 2026, attempt sideloading until it activates, then revert the system clock and re-enable **SPPSVC**.
-
-**Known bug:**
-
-If your disk has **0 bytes** of free space, the system might fail to write the new tokens file, leaving the `tokens.dat` file empty and when SPPSVC starts, it will recreate the file but everything will be deactivated—including Windows itself.
-
-MetroUnlocker always attempts to create a backup of your tokens before modifying them. Make sure you have at least **30MB** free of space before trying to activate sideloading. If something goes wrong, just restore the tokens.dat file from the backup to `C:\Windows\System32\spp\store\2.0`. In worst-case scenario, you can reactivate whatever you need activated again with **TSForge**.
-
-Feel free to reach out to me or create an issue if you need help.
-
-**Huge thanks to [TSForge](https://github.com/massgravel/TSforge)** for making this possible by reverse-engineering **SPPSVC**!
-
-Thank you Zar!
+-Made by: AppLove (Little Shark)
