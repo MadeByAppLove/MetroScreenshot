@@ -7,9 +7,10 @@
 
 - Windows 8.1 x86, x64 or ARM
 
-**What is MetroScreenshot?** MetroScreenshot is a native Metro (AppX) application designed for Windows 8.1 that allows you to easily capture and save screenshots of your favorite Metro apps, games, and the Start screen.
+## What is MetroScreenshot?
+MetroScreenshot is a native Metro (AppX) application designed for Windows 8.1 that allows you to easily capture and save screenshots of your favorite Metro apps, games, and the Start screen.
 
-**Latest Update:**
+## Latest Update:
 Version: 1.1.0.0
 Update name: Quality of Life Update
 
